@@ -54,7 +54,21 @@ img {
 
 p {
   margin: 0 0 15px;
-  color: #444;
+  color: #fff;
+}
+
+p1 {
+  margin: 0 0 15px;
+  color: #fff;
+  text-align: left;
+}
+
+#hero p1 {
+  width: 80%;
+  font-size: 38px;
+  line-height: 1.2;
+  margin: 0 auto 30px auto;
+  color: #fff;
 }
 
 h1,
@@ -65,7 +79,7 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
   margin: 0 0 15px;
-  color: #444;
+  color: #fff;
   font-weight: 500;
 }
 
@@ -115,8 +129,8 @@ a:hover {
 }
 
 body {
-  background: #fff none repeat scroll 0 0;
-  color: #444;
+  background: #263047; none repeat scroll 0 0;
+  color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   text-align: left;
@@ -544,7 +558,6 @@ div#Eclipse {
 #hero {
   width: 100%;
   height: 100vh;
-  background: #000;
   overflow: hidden;
   position: relative;
 }
@@ -574,7 +587,7 @@ div#Eclipse {
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+
 }
 
 #hero .carousel-container {
@@ -589,7 +602,7 @@ div#Eclipse {
 }
 
 #hero .container {
-  text-align: center;
+  text-align: left;
 }
 
 #hero h2 {
@@ -627,13 +640,8 @@ div#Eclipse {
   }
 }
 
-#hero .carousel-fade {
-  overflow: hidden;
-}
 
-#hero .carousel-fade .carousel-inner .carousel-item {
-  transition-property: opacity;
-}
+
 
 #hero .carousel-fade .carousel-inner .carousel-item,
 #hero .carousel-fade .carousel-inner .active.carousel-item-start,
@@ -689,7 +697,7 @@ div#Eclipse {
   padding: 8px 32px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 10px;
+  margin: 1px;
   color: #fff;
   background: #f87d1d;
 }
@@ -703,7 +711,7 @@ div#Eclipse {
 # About
 --------------------------------------------------------------*/
 .about-area {
-  background-color: #f9f9f9;
+  background-color: #263047;
 }
 
 .single-well>a {
@@ -711,7 +719,7 @@ div#Eclipse {
 }
 
 .single-well ul li {
-  color: #444;
+  color: #fff;
   display: block;
   padding: 5px 0;
 }
@@ -723,14 +731,14 @@ div#Eclipse {
 }
 
 .single-well p {
-  color: #444;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services-icon {
-  color: #444;
+  color: #fff;
   display: inline-block;
   font-size: 36px;
   line-height: 36px;
@@ -760,13 +768,13 @@ div#Eclipse {
 }
 
 .single-services>h4 {
-  color: #444;
+  color: #fff;
   font-size: 24px;
   font-weight: 500;
 }
 
 .single-services>p {
-  color: #333;
+  color: #fff;
   font-size: 14px;
 }
 
@@ -953,7 +961,7 @@ div#Eclipse {
 
 .team-content>h4,
 .team-content>p {
-  color: #444;
+  color: #fff;
   margin-bottom: 5px;
 }
 
@@ -1053,7 +1061,7 @@ div#Eclipse {
   background: #fff;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
-  border: 1px solid #444;
+  border: 1px solid #fff;
 }
 
 #portfolio-flters li:hover,
@@ -1237,8 +1245,8 @@ div#Eclipse {
 }
 
 .pri_table_list button {
-  background: #444 none repeat scroll 0 0;
-  border: 1px solid #444;
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #fff;
   color: #fff;
   margin-bottom: 25px;
   padding: 10px 35px;
@@ -1414,7 +1422,7 @@ div#Eclipse {
 # Quote
 --------------------------------------------------------------*/
 .suscribe-area {
-  background: #263047 none repeat scroll 0 0;
+  background: #444 none repeat scroll 0 0;
   padding: 30px 0;
 }
 
@@ -1562,7 +1570,7 @@ div#Eclipse {
 .php-email-form button[type=submit] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border: 1px solid #ccc;
-  color: #444;
+  color: #fff;
   font-size: 16px;
   font-weight: 700;
   margin-top: 8px;
@@ -1591,24 +1599,24 @@ div#Eclipse {
 }
 
 .blog-text h4 a {
-  color: #444;
+  color: #fff;
   text-decoration: none;
 }
 
 .blog-text h4 {
-  color: #444;
+  color: #fff;
   margin-bottom: 15px;
 }
 
 .blog-btn {
-  border-bottom: 1px dotted #444;
-  color: #444;
+  border-bottom: 1px dotted #fff;
+  color: #fff;
   text-decoration: none;
 }
 
 .blog-btn {
-  border-bottom: 1px dotted #444;
-  color: #444;
+  border-bottom: 1px dotted #fff;
+  color: #fff;
   display: inline-block;
   padding: 0 1px 5px 0;
   position: relative;
@@ -1679,9 +1687,9 @@ div#Eclipse {
 }
 
 .single-blog .ready-btn {
-  border: 1px solid #444;
+  border: 1px solid #fff;
   border-radius: 30px;
-  color: #444;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
@@ -1734,7 +1742,7 @@ div#Eclipse {
 
 .left-blog h4 {
   border-bottom: 1px solid #ddd;
-  color: #444;
+  color: #fff;
   font-size: 17px;
   font-weight: 500;
   margin-bottom: 0;
@@ -1755,7 +1763,7 @@ div#Eclipse {
 }
 
 .left-blog ul li a {
-  color: #444;
+  color: #fff;
   display: block;
   font-size: 14px;
   padding: 10px;
@@ -1815,7 +1823,7 @@ div#Eclipse {
 }
 
 .pst-content p a {
-  color: #444;
+  color: #fff;
   font-size: 15px;
 }
 
@@ -1871,7 +1879,7 @@ div#Eclipse {
 }
 
 .post-information .entry-meta span a {
-  color: #444;
+  color: #fff;
   display: inline-block;
   padding: 10px 0;
 }
@@ -1890,11 +1898,11 @@ div#Eclipse {
 }
 
 .entry-content>p {
-  color: #444;
+  color: #fff;
 }
 
 .entry-meta>span {
-  color: #444;
+  color: #fff;
 }
 
 .entry-content blockquote {
@@ -1940,8 +1948,8 @@ div#Eclipse {
 }
 
 .sharing-icon a {
-  border: 1px solid #444;
-  color: #444;
+  border: 1px solid #fff;
+  color: #fff;
   display: block;
   float: left;
   font-size: 18px;
@@ -1984,7 +1992,7 @@ div#Eclipse {
 .comments-heading h3,
 h3.comment-reply-title {
   border-bottom: 1px solid #e8e8e9;
-  color: #444;
+  color: #fff;
   font-size: 18px;
   margin: 0 0 20px;
   padding: 0 0 5px;
@@ -2056,7 +2064,7 @@ span.email-notes {
 }
 
 .comment-respond p {
-  color: #444;
+  color: #fff;
   margin-bottom: 5px;
 }
 
@@ -2084,7 +2092,7 @@ span.email-notes {
   border: 1px solid #f87d1d;
   border-radius: 20px;
   box-shadow: none;
-  color: #444;
+  color: #fff;
   display: inline-block;
   font-size: 12px;
   font-weight: 700;
@@ -2212,9 +2220,9 @@ span.email-notes {
 }
 
 .popular-tag ul li a {
-  border: 1px solid #444;
+  border: 1px solid #fff;
   border-radius: 30px;
-  color: #444;
+  color: #fff;
   font-size: 13px;
   display: block;
   font-weight: 600;
@@ -2227,7 +2235,7 @@ span.email-notes {
 }
 
 .footer-area-bottom {
-  background: #f1f1f1 none repeat scroll 0 0;
+  background: #263047 none repeat scroll 0 0;
   padding: 15px 0;
 }
 
@@ -2237,12 +2245,12 @@ span.email-notes {
 }
 
 .copyright-text a {
-  color: #444;
+  color: #fff;
 }
 
 .copyright>p {
   margin-bottom: 0;
-  color: #444;
+  color: #fff;
 }
 
 .copyright a,
